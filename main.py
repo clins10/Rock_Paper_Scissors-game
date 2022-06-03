@@ -31,7 +31,6 @@ def play_game():
         keep_running = False
         return (f"You picked ({options_explanation[user]}) And The Computer picked ({options_explanation[computer]}) sorry... You Lose 😭😭 !")
     else:
-    
         return ("Invalid Input 🛑 !  please pick 'R' or 'P' or 'S'")
 
 
