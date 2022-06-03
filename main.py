@@ -1,4 +1,5 @@
 import random
+from xml.etree.ElementTree import Comment
 
 keep_running = True
 list_of_options = ['R', 'P', 'S'] #list of options
@@ -40,7 +41,7 @@ def is_win(player, opponent):
     elif player == 'S' and opponent == 'P':
         return True 
     
-    elif player == 'P' and opponent == 'R':
+    elif player == 'P' and opponent == 'R': 
         return True
     else:
         return False 
@@ -48,3 +49,5 @@ def is_win(player, opponent):
 #while loop to keep the game running
 while keep_running:
     print(play_game()) #calling the play_game function
+
+Comment= 'link up me on LinkedIn: https://www.linkedin.com/in/collins-viashima-b8a9b9a1/'
