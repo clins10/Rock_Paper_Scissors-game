@@ -50,4 +50,4 @@ def is_win(player, opponent):
 while keep_running:
     print(play_game()) #calling the play_game function
 
-Comment= 'link up me on LinkedIn: https://www.linkedin.com/in/collins-viashima-b8a9b9a1/'
+Comment= 'link up me on LinkedIn: https://www.linkedin.com/in/collinsv/'
